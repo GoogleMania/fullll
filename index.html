@@ -1,0 +1,135 @@
+ 
+ 
+ <!DOCTYPE html>
+<html>
+
+<head>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/travel-sm-bg.png");
+    min-height: 100vh;
+    background-size: cover;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width:768px) {
+    .bg-container {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/travel-md-bg.png");
+    }
+}
+
+.trvel-container {
+    width: 90%;
+    max-width: 450px;
+}
+
+@media screen and (min-width:768px) {
+    .trvel-container {
+        max-width: 6000px;
+    }
+}
+
+.main-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 30px;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .main-heading {
+        font-size: 45px;
+    }
+}
+
+.description {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 20px;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+@media screen and (min-width:768px) {
+    .button-container {
+        flex-direction: row;
+        margin-top: 44px;
+    }
+}
+
+.button {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 36px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.get-started-button {
+    color: #183b56;
+    background-color: #ffffff;
+    border: none;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .get-started-button {
+        margin-right: 20px;
+    }
+}
+
+.know-more-button {
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    margin-top: 24px;
+}
+
+@media screen and (min-width:768px) {
+    .know-more-button {
+        margin-top: 0px;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <div class="bg-container">
+        <div class="trvel-container">
+            <h1 class="main-heading">Start Exporting to Find Inner Peace by Traveling</h1>
+            <p class="description">Lost yourself with Vacation and Travel into a place that you never visit before .We have a thousand places in our database for you.</p>
+            <div class="button-container">
+                <button class="button get-started-button">Get Started</button>
+                <button class="button know-more-button">Know More</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
